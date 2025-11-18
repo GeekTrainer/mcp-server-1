@@ -54,3 +54,8 @@ jobs:
         mv package.json.bak package.json
     - name: Publish to npm
       run: npm publish --access public
+
+  publish-mcp-registry:
+    needs: [pull-request, publish-package]
+    if: ${{needs.pull-request.outputs.releases_created && toJson(fromJson(needs.pull-request.outputs.paths_released)) != '[]'}}
+    uses: ./.github/workflows/publish-mcp-registry.yml

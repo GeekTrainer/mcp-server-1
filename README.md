@@ -1,6 +1,6 @@
 # UI5 MCP Server
 
-A [Model Context Protocol](https://modelcontextprotocol.io/) server for UI5 development.
+A [Model Context Protocol](https://modelcontextprotocol.io/) server for UI5 application development.
 
 [![OpenUI5 Community Slack (#tooling channel)](https://img.shields.io/badge/slack-join-44cc11.svg)](https://ui5-slack-invite.cfapps.eu10.hana.ondemand.com/)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.1%20adopted-ff69b4.svg)](https://github.com/UI5/mcp-server?tab=coc-ov-file#readme)
@@ -95,7 +95,7 @@ The UI5 MCP server can be configured using the following environment variables. 
 	* Description: Set to any value to disable [resources](https://modelcontextprotocol.io/specification/2025-06-18/server/resources) in the MCP server responses. This is useful for [clients that do not support resources](https://modelcontextprotocol.io/clients), such as Cursor or the Gemini CLI.
 * **`UI5_LOG_LVL`**:
 	* Default Value: `info`
-	* Description: Internal [log level](https://sap.github.io/ui5-tooling/stable/pages/Troubleshooting/#changing-the-log-level): `silent`, `error`, `warn`, `info`, `perf`, `verbose`, `silly`
+	* Description: Internal [log level](https://ui5.github.io/cli/stable/pages/Troubleshooting/#changing-the-log-level): `silent`, `error`, `warn`, `info`, `perf`, `verbose`, `silly`
 * **`UI5_DATA_DIR`**:
 	* Default Value: The `.ui5` directory in the user's home directory
 	* Description: Directory where the MCP server stores its data, such as cached API references
