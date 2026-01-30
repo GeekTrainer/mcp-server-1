@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.2.5](https://github.com/UI5/mcp-server/compare/v0.2.4...v0.2.5) (2026-01-30)
+
+
+### Dependencies
+
+* Bump ejs from 3.1.10 to 4.0.1 ([4731854](https://github.com/UI5/mcp-server/commit/47318546b35075d00c4b42a967aa1f30a9b23385))
+* Bump tar from 7.5.6 to 7.5.7 ([298740b](https://github.com/UI5/mcp-server/commit/298740b41703d1c2b6d3b80f3d5304e8b0ecb8af))
+* Bump zod from 4.3.5 to 4.3.6 ([ef1d703](https://github.com/UI5/mcp-server/commit/ef1d703f95d991a1e283c9668507529c4b84a106))
+
 ## [0.2.4](https://github.com/UI5/mcp-server/compare/v0.2.3...v0.2.4) (2026-01-23)
 
 
